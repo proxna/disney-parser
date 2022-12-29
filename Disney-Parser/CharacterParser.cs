@@ -8,5 +8,9 @@ namespace Disney_Parser
 {
     internal class CharacterParser
     {
+        public void Parse(string path)
+        {
+
+        }
     }
 }
