@@ -24,8 +24,7 @@ namespace Disney_Parser
                 string[] elements = line.Split(',');
                 string character = elements[1];
                 string voiceActor = elements[2];
-                string movingActor = elements[3];
-                string query = $"INSERT INTO VoiceActors VALUES('','{character}','{voiceActor}','{movingActor}')";
+                string query = $"INSERT INTO characters VALUES('','{character}','{voiceActor}')";
                 databaseManager.ExecuteQuery(query);
             }
         }

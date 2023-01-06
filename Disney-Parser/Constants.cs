@@ -8,6 +8,6 @@ namespace Disney_Parser
 {
     internal static class Constants
     {
-        public static string ConnectionString = @"server=localhost;userid=dbuser;password=s$cret;database=testdb";
+        public static string ConnectionString = @"server=localhost:3307;userid=root;password=dupa123;database=dis";
     }
 }
